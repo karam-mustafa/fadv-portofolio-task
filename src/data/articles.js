@@ -59,7 +59,34 @@ function article_2() {
 		),
 	};
 }
+function article_3() {
+	return {
+		date: "7 May 2023",
+		title: "The Benefits of Cloud Computing",
+		description: "Why businesses are turning to the cloud.",
+		style: `
+				.random-image {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						Content of article 3
+					</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="random-image"
+					/>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
 
-const myArticles = [article_1, article_2];
+const myArticles = [article_1, article_2, article_3];
 
 export default myArticles;

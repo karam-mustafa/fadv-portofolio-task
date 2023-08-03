@@ -1,30 +1,30 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
+		title: "Ali Mohammad",
 		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		email: "eng.alimoh98m@gmail.com",
+		logo: "../logo1.svg",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/aliModdd98",
+		linkedin: "https://www.linkedin.com/in/ali-mohammad-60a9b4286/",
+		instagram: "@3li_moddd",
+		stackoverflow: "https://stackoverflow.com/users/22326977/ali-mohammad",
+		facebook: "https://www.facebook.com/profile.php?id=100009507318769&mibextid=ZbWKwL",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Front-end Developer and flutter developer previously.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Front-end developer with little expertise in React.js. As a software engineer with a passion for problem-solving and team collaboration, I am seeking a role as a frontend developer. With expertise in various	programming languages and experience with Agile	methodology, I am confident in my ability to create	innovative solutions for complex problems. Outside of work, my hobbies of exploring new places,reading, photography, and sports fuel my creativity and determination to succeed in any task",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Ali Mohammad ,I live in lattkia (Syria), where I design the future.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I've worked on few projects in recent years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
 
 	articles: {

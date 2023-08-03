@@ -19,6 +19,8 @@
 .card-icon {
 	font-size: 15px;
 	color: var(--tertiary-color);
+	position: absolute;
+    
 }
 
 .card-title {
