@@ -1,4 +1,4 @@
-import logo from './../../public/logo1.svg';
+import logo from './../images/logo1.svg';
 const INFO = {
 	main: {
 		title: "Ali Mohammad portofolio",
