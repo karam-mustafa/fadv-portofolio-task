@@ -3,7 +3,6 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import twitter from './../../images/twitter.png';
 import facebook from './../../images/facebook.png';
 import Card from "../common/card";
-facebook
 import "./styles/works.css";
 
 const Works = () => {
