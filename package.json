@@ -1,10 +1,10 @@
 {
-	"homepage": "https://github.com/aliModdd98/fadv-portofolio-task",
+	"homepage":"http://aliModdd98.github.io/fadv-portofolio-task",
 	"name": "reactfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
+		"name": "Ali Mohammad",
 		"email": "mail@tharindu.dev",
 		"url": "https://tharindu.dev"
 	},
