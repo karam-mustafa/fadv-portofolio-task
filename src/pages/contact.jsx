@@ -29,7 +29,7 @@ const Contact = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content">
+			<div className="page-content heightp">
 				<NavBar active="contact" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
@@ -60,11 +60,11 @@ const Contact = () => {
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.facebook}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
+								{INFO.socials.facebookss}
 							</a>
 							. I post regular updates and engage with my
 							followers there, so don't hesitate to reach out.

@@ -29,7 +29,7 @@ const About = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content">
+			<div className="page-content heightp">
 				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
