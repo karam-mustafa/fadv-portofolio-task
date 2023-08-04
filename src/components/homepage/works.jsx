@@ -1,6 +1,10 @@
 import React from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
+
+
+import faceBookPhoto from "./../../assets/img/facebook.png" 
+import twitterPhoto from "./../../assets/img/twitter.png" 
 import Card from "../common/card";
 
 import "./styles/works.css";
@@ -15,28 +19,28 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src={faceBookPhoto}
 								alt="facebook"
 								className="work-image"
 							/>
 							<div className="work-title">Facebook</div>
 							<div className="work-subtitle">
-								Software Engineer
+								React Developer
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2020 - Present</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
+								src={twitterPhoto}
 								alt="twitter"
 								className="work-image"
 							/>
 							<div className="work-title">Twitter</div>
 							<div className="work-subtitle">
-								Software Engineer
+								React Developer
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2020 - Present</div>
 						</div>
 					</div>
 				}
