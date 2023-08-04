@@ -1,28 +1,28 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: " Bayeram dawwa ",
+		name: "Bayeram Dawwa",
+		email: "beramdawa@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		twitter: "https://twitter.com/bayeramdawwa",
+		github: "https://github.com/bayeramdawwa",
+		linkedin: "https://www.linkedin.com/in/bayeram-dawwa-91027b261/",
+		instagram: "https://www.instagram.com/bayram_s_dawa/",
+		stackoverflow: "https://stackoverflow.com/users/22331888/bayeram-dawwa",
+		facebook: "https://www.facebook.com/beram.dawa/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "IT Engineer, and front-end developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a front end developer. I design and develop the visual and interactive part of websites. Bring designs and ideas to life by turning them into effective and attractive user interfaces that interact seamlessly with the user.I use modern tools and technologies such as HTML, CSS, JavaScript and frameworks such as React to build interactive and dynamic user interfaces. Always excited to provide creative and innovative solutions to meet users' needs and improve their experience. And ready for new challenges and learning opportunities to stay abreast of the latest technologies used in front-end development",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Bayeram Dawwa. I live in Tartous - Syria.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
