@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./focalx.jpg"
+								src={process.env.PUBLIC_URL +"/focalx.jpg"}
 								alt="focalx"
 								className="work-image"
 							/>

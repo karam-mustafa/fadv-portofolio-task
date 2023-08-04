@@ -22,12 +22,28 @@ function article_1() {
 				.randImage {
 					align-self: center;
 					outline: 2px solid red;
+					width: 100%;
+					height: 300px;
+					margin: 20px 0;
+					border-radius: 8px;
 				}
 				`,
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+				<div className="paragraph">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Nemo eum fugit ea neque cumque sunt, ducimus dolorem optio earum? Velit!
+					</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+					<div className="paragraph">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Nemo eum fugit ea neque cumque sunt, ducimus dolorem optio earum? Velit!
+					</div>
 					<img
 						src="https://picsum.photos/200/300"
 						alt="random"

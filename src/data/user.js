@@ -3,7 +3,7 @@ const INFO = {
 		title: " Bayeram dawwa ",
 		name: "Bayeram Dawwa",
 		email: "beramdawa@gmail.com",
-		logo: "/logo.png",
+		logo: "/logo.jpg",
 	},
 
 	socials: {
@@ -35,49 +35,42 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Landing Page",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A simple, responsive landing page with some animations, using reactjs",
+			logo: (process.env.PUBLIC_URL +"/Reactlogo.png"),
+			linkText: "View Project",
+			link: "https://bayeramdawwa.github.io/bayeram_dawwa_task1/",
+		},
+
+		{
+			title: "view products",
+			description:
+				"fetch data from api and search .responsive, with animations. using javascript ,css. //Note//: use VPN if website dont work correctly",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://bayeramdawwa.github.io/task5Fetchapi/",
 		},
 
 		{
-			title: "Project 2",
+			title: "portofolio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"portofolio website template, responsive. using html, css, javascript, bootstrap",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://bayeramdawwa.github.io/task6-protfilo",
 		},
 
 		{
-			title: "Project 4",
+			title: "trippy ",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Travel website template, responsive. using React, bootstrap",
+			logo: (process.env.PUBLIC_URL +"/Reactlogo.png"),
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://bayeramdawwa.github.io/trippy",
 		},
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+	
 	],
 };
 
