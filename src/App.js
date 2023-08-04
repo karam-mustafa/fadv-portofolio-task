@@ -30,7 +30,7 @@ function App() {
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
-				</Routes>
+					</Routes>
 		</div>
 	);
 }
