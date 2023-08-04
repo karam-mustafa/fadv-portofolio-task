@@ -5,6 +5,8 @@ import INFO from "../../data/user";
 
 import "./styles/logo.css";
 
+import logo from "./../../assets/logo.png";
+
 const Logo = (props) => {
 	let { width, link } = props;
 
@@ -13,7 +15,7 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={logo} alt="logo" className="logo" width={width} />
 	);
 
 	return (

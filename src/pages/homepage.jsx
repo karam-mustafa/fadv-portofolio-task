@@ -23,6 +23,8 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
+import homepageImg from "./../assets/homepage.jpg";
+
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -104,7 +106,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={homepageImg}
 											alt="about"
 											className="homepage-image"
 										/>
