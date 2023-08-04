@@ -16,7 +16,7 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-
+import homepage from "../images/homepage.jpg"
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -104,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={homepage}
 											alt="about"
 											className="homepage-image"
 										/>

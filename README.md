@@ -118,7 +118,7 @@ Directory: `/src/data/`
     ```css
     :root {
     	/* ------- colors ------- */
-    	--primary-color: #27272a;
+    	--primary-color:cornflowerblue;
     	--secondary-color: #65656d;
     	--tertiary-color: #acacb4;
     	--quaternary-color: #e4e4e7;
