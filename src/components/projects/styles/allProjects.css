@@ -14,6 +14,10 @@
 	padding: 10px;
 	overflow: hidden;
 }
+.all-projects-project:hover {
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	transition:box-shadow 0.3s ease-in-out ;
+}
 
 @media (max-width: 600px) {
 	.all-projects-project {

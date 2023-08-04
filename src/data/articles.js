@@ -21,7 +21,7 @@ function article_1() {
 
 				.randImage {
 					align-self: center;
-					outline: 2px solid red;
+					outline: 2px solid rgba(0, 0, 0, 0.1);
 					width: 100%;
 					height: 300px;
 					margin: 20px 0;
