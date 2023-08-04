@@ -3,7 +3,7 @@ const INFO = {
 		title: " Bayeram dawwa ",
 		name: "Bayeram Dawwa",
 		email: "beramdawa@gmail.com",
-		logo: "../logo.png",
+		logo: "/logo.png",
 	},
 
 	socials: {
