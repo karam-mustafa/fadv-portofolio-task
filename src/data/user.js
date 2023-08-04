@@ -1,10 +1,10 @@
-import logo from './../images/logo1.svg';
+
 const INFO = {
 	main: {
 		title: "Ali Mohammad portofolio",
 		name: "Ali Mohammad",
 		email: "eng.alimoh98m@gmail.com",
-		logo: {logo},
+		
 	},
 
 	socials: {
