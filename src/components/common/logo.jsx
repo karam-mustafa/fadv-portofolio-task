@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo1 from './../../images/logo1.svg'
 
-
 import "./styles/logo.css";
 
 const Logo = (props) => {
@@ -13,7 +12,7 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src={props.Logo} alt="logo" className="logo" width={width} />
+		<img src={logo1} alt="logo" className="logo" width={width} />
 	);
 
 	return (
