@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import image from "../assets/1688525533843.jpg";
 import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
@@ -7,7 +8,7 @@ import {
 	faTwitter,
 	faGithub,
 	faStackOverflow,
-	faInstagram,
+	faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -56,7 +57,7 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
+	const currentSEO = SEO.find(item => item.page === "home");
 
 	const logoStyle = {
 		display: "flex",
@@ -65,7 +66,7 @@ const Homepage = () => {
 		zIndex: 999,
 		border: stayLogo ? "1px solid white" : "none",
 		borderRadius: stayLogo ? "50%" : "none",
-		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
+		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none"
 	};
 
 	return (
@@ -104,7 +105,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={image}
 											alt="about"
 											className="homepage-image"
 										/>
