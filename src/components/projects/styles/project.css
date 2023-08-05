@@ -12,7 +12,7 @@
 }
 
 .project:hover {
-	background: #fafafa;
+	background: var(--heigh-color);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -36,7 +36,7 @@
 
 .project-title {
 	font-family: var(--secondary-font);
-	color: var(--primary-color);
+	color: var(--quaternary-color);
 	font-size: 16px;
 	padding-top: 15px;
 	margin-bottom: 1em;
@@ -44,13 +44,13 @@
 }
 
 .project-description {
-	color: var(--secondary-color);
+	color: var(--quaternary-color);
 }
 
 .project-link {
 	display: flex;
 	align-items: center;
-	color: var(--secondary-color);
+	color: var(--quaternary-color);
 	font-size: 12px;
 	padding-top: 20px;
 }

@@ -4,10 +4,11 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
+	faFacebookF,
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -20,6 +21,8 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
+import homepagePhoto from "./images/administrator.jpg";
+
 
 import "./styles/homepage.css";
 
@@ -104,7 +107,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={homepagePhoto}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -115,12 +118,12 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.facebook}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faFacebook}
 									className="homepage-social-icon"
 								/>
 							</a>

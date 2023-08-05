@@ -44,11 +44,25 @@
 .homepage-image-wrapper {
 	overflow: hidden;
 	border-radius: 10%;
-	transform: rotate(3deg);
+	transition: .2s;
+	transform: rotate(0deg);
+	filter: blur(5px) grayscale(100%);
+	box-shadow: 0px 0px 40px 7px var(--success-color),0px 0px 80px 14px var(--success-color),0px 0px 80px 20px var(--success-color);
+	
+}
+
+.homepage-image-wrapper:hover {
+	overflow: hidden;
+	border-radius: 10%;
+	transition: .2s;
+	filter: blur(0px) grayscale(0%);
+	transform: translateY(-20px);
 }
 
 .homepage-image-wrapper img {
 	width: 100%;
+	box-shadow: 0px 0px 20px 10px var(--success-color);
+	
 }
 
 .homepage-socials {
@@ -66,7 +80,7 @@
 }
 
 .homepage-social-icon:hover {
-	color: var(--primary-color);
+	color: var(--success-color);
 }
 
 .homepage-after-title {
