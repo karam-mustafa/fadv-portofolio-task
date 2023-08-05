@@ -15,28 +15,15 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src={process.env.PUBLIC_URL +"/focalx.jpg"}
+								alt="focalx"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Focal X</div>
 							<div className="work-subtitle">
-								Full Stack Web Developer
+							internship Web Development Front-end 
 							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div>
-
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-							Full Stack Web Developer
-							</div>
-							<div className="work-duration">2012 - Present</div>
+							<div className="work-duration">2023 - Present </div>
 						</div>
 					</div>
 				}

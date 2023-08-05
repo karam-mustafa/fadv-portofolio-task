@@ -8,6 +8,7 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -104,7 +105,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={process.env.PUBLIC_URL +"/homepage.jpg"}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -121,6 +122,16 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faTwitter}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.facebook}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faFacebook}
 									className="homepage-social-icon"
 								/>
 							</a>
