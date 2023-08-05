@@ -21,6 +21,8 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
+import homepagePhoto from "./images/administrator.jpg";
+
 
 import "./styles/homepage.css";
 
@@ -105,7 +107,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="administrator.jpg"
+											src={homepagePhoto}
 											alt="about"
 											className="homepage-image"
 										/>
