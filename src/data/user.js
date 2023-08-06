@@ -4,6 +4,10 @@ const INFO = {
 		name: "Abdullah Alashek",
 		email: "e.abdullah.alashek@gmail.com",
 		logo: "../smile-png-46526.png",
+		title: "Karam Mustafa",
+		name: "Tharindu N.",
+		email: "karam2mustafa@gmail.com",
+		logo: "../logo.png",
 	},
 
 	socials: {
