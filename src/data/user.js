@@ -1,70 +1,72 @@
 const INFO = {
 	main: {
-		title: "Karam Mustafa",
-		name: "Tharindu N.",
-		email: "karam2mustafa@gmail.com",
-		logo: "../logo.png",
+		title: "Reactfolio by Abdulhadi lbabidi",
+		name: "Abdulhadi.",
+		email: "abdalhadilbabidi.codm@gmail.com",
+		phone: "+963957464304",
+		WA: "https://wa.me/963957464304",
+		logo: "./src/images/logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		github: "https://github.com/abdulhadi-lbabidi",
+		linkedin: "https://www.linkedin.com/in/abdalhadi-lbabidi-36406025b/",
+		instagram: "https://www.instagram.com/abdalhadi_lbabidi/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "https://www.facebook.com/abdhadi.lababidi/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack web developer, Focal X trainer.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hello, my name is abdulhadi i am 23 years old. I love coding actully i am software engineer not graduate yet but some day maybe, i like swim and basketball sports",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Abdulhadi lbabidi. I live in Syria Aleppo",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Wow I don't know where to start but I can give you the following. My name is Abd al-Hadi Lababidi. I am a graduated software engineer. I have worked in several companies and gained a lot of experience and wonderful friends. I intend to meet more friends.In the beginning, programming for me was something new, through which I learned patience and dealing with the code as if it were a city of dreams. I could do anything with the code, build pyramids, build a car racing game, or even an integrated system to manage a lot of things. Beautiful and elaborate",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Some of my IT articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"I have published some of the articles that you may like. It took me a lot of effort and fatigue. I hope you like it",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Dental clinic",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"this is my first success project i built it with c# programing language it's my first app",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/csharp/csharp.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "car shop",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"i made a car shop mobile application using java in android studio.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "public school",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"i made a public school mobile application using java in android studio.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 4",
+			title: "image filter",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"i made a photo filter using java script.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -73,8 +75,8 @@ const INFO = {
 		{
 			title: "Project 5",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"i made a photo filter using java script.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/php/php.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},

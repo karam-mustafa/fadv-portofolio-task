@@ -2,15 +2,15 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "9 May 2023",
+		title: "Cybersecurity Threats in the Digital Age: How to Protect Your Business and Personal Information",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"This article explores the growing threat of cyber attacks and how individuals and businesses can protect themselves from these threats. It discusses common types of cyber attacks, such as phishing and malware, and provides tips for securing personal and sensitive information online.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Cybersecurity Threats in the Digital Age",
+			"Abdulhadi",
+			"Abdulhadi",
+			"Abdulhadi"
 		],
 		style: `
 				.article-content {
@@ -42,15 +42,15 @@ function article_1() {
 function article_2() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "The Future of Artificial Intelligence: How It Will Transform Industries and Society",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"This article delves into the world of artificial intelligence (AI) and its potential to revolutionize various industries, from healthcare to finance. It discusses the current state of AI, its limitations, and future developments that could shape the way we live and work.",
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",
-			"Tharindu ",
-			"Tharindu N ",
-			"Tharindu Nayanajith ",
+			"Abdulhadi",
+			"Abdulhadi",
+			"Abdulhadi"
 		],
 		body: (
 			<React.Fragment>
