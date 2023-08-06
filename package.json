@@ -9,7 +9,7 @@
 	},
 	"license": "MIT",
 	"private": true,
-	"homepage": "/",
+	"homepage": "https://abdulhadi-lbabidi.github.com/fadv-portofolio-task",
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.4.0",
 		"@fortawesome/free-brands-svg-icons": "^6.4.0",
