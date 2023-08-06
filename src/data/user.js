@@ -1,10 +1,17 @@
 
 const INFO = {
 	main: {
+<<<<<<< HEAD
 		title: "Ali Mohammad portofolio",
 		name: "Ali Mohammad",
 		email: "eng.alimoh98m@gmail.com",
 		
+=======
+		title: "Karam Mustafa",
+		name: "Tharindu N.",
+		email: "karam2mustafa@gmail.com",
+		logo: "../logo.png",
+>>>>>>> main/main
 	},
 
 	socials: {

@@ -29,7 +29,11 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
+<<<<<<< HEAD
 						© 2023 All Rights Reserved. directed by  Ali Mohammad.
+=======
+						© 2023 Karam Mustafa All Rights Reserved.
+>>>>>>> main/main
 					</div>
 				</div>
 			</div>
