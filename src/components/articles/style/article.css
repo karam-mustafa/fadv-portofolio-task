@@ -23,7 +23,7 @@
 }
 
 .article-right-side:hover {
-	background: #fafafa;
+	background: #1B1464;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }

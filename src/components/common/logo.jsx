@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import INFO from "../../data/user";
-
+/* import INFO from "../../data/user"; */
+import logo from "../../assets/images/Neze_art_ I will design initial esport logo for gaming team, youtube, twitch free banner for $10 on fiverr_com.jpg"
 import "./styles/logo.css";
 
 const Logo = (props) => {
@@ -13,7 +13,7 @@ const Logo = (props) => {
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={logo} alt="logo" className="logo" width={width} />
 	);
 
 	return (

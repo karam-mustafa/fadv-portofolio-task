@@ -1,6 +1,8 @@
 .logo {
 	border-radius: 50%;
-	display: block;
-	margin: 0;
-	padding: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 79px;
+    height: 79px;
 }

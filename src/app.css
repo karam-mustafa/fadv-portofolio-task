@@ -18,7 +18,7 @@
 }
 
 .page-content {
-	background-color: white;
+    background-color: #636e72;
 	position: relative;
 }
 
@@ -29,8 +29,8 @@
 	top: 0;
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
-	background-color: #fafafa;
-	border: 1px solid #f4f4f5;
+	background-color: #273c75;
+    box-shadow: 1px 1px 1px #112355 ;
 }
 
 .page-content:before {
@@ -74,7 +74,7 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	border-top: 2px solid var(--tertiary-color);
+	border-top: 2px solid #1b1b8f;
 }
 
 @media (max-width: 1270px) {

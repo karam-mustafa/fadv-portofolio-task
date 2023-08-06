@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faTwitter,
-	faGithub,
-	faStackOverflow,
-	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
@@ -16,7 +9,7 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-
+import photo2 from "../assets/images/kelly-sikkema-YK0HPwWDJ1I-unsplash.jpg"
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -104,7 +97,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={photo2}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -113,7 +106,7 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-socials">
+						{/* <div className="homepage-socials">
 							<a
 								href={INFO.socials.twitter}
 								target="_blank"
@@ -164,7 +157,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-						</div>
+						</div> */}
 
 						<div className="homepage-projects">
 							<AllProjects />

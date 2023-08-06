@@ -8,7 +8,7 @@
 }
 
 .homepage-article:hover {
-	background: #fafafa;
+	background: #112355;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -19,14 +19,14 @@
 
 .homepage-article-date {
 	opacity: 1;
-	color: var(--tertiary-color);
+	color: #e4e4e7;
 	font-size: 12px;
 	margin-bottom: 1em;
 }
 
 .homepage-article-title {
 	opacity: 1;
-	color: var(--primary-color);
+	color: #b0bbbe;
 	font-size: 16px;
 	margin-bottom: 1em;
 	font-weight: 700;
@@ -34,9 +34,10 @@
 
 .homepage-article-description {
 	opacity: 1;
-	color: var(--secondary-color);
-	font-size: 12px;
-	line-height: 1.5;
+    color: #0f0d1f;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
 }
 
 .homepage-article-link {
