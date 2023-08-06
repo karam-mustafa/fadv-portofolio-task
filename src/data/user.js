@@ -1,30 +1,27 @@
 const INFO = {
 	main: {
-		title: "Karam Mustafa",
-		name: "Tharindu N.",
-		email: "karam2mustafa@gmail.com",
+		title: "Rayan Hnide",
+		name: "Rayan Hnide.",
+		email: "eng.rayanhnide1998@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		behance: "https://www.behance.net/rayanhnide",
+		github: "https://github.com/rayanHnide-FE1",
+		linkedin: "https://www.linkedin.com/in/rayan-hnide-734586241",
+		facebook: "https://www.facebook.com/rayan.hnide",
+		email:'eng.rayanhnide1998@gmail.com'
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
-		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+		title: "Front-End Web Developer,UI/UX Designer.",
+		description: "I am a front-end Web Developer and UI/Ux Designer, I have two years of experience in designing and developing websites, I worked on many practical projects of the highest quality, and I seek to develop myself further, learn more techniques and keep abreast of scientific updates always",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		title: "I’m Rayan Hnide . I live in Syria , where I design the future.",
+		description:"I am currently a final year student at the University of Damascus, Computer Engineering and Automation, specializing in automatic control and industrial automation. I am a front-end developer, and I am currently deepening the field to gain the largest amount of experience. worked with the xcore Corporation as a group leader in the Informatics Department Web-Front-End, and I supervised the training of more than Training workshop in the institution. I believe that to be successful in life one needs to be obsessed with their dreams and keep working towards them"
 	},
 
 	articles: {
@@ -37,46 +34,42 @@ const INFO = {
 		{
 			title: "Project 1",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Project using Html & Css",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://rayanhnide-fe1.github.io/Fitrst-Project/",
 		},
 
 		{
 			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			description:"Project using Reactjs and Redux ",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://thirdproject-c18f7.web.app/",
 		},
 
 		{
 			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			description:"Project using Reactjs and Redux",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://hotel-45299.web.app/",
 		},
 
 		{
 			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			description:"Project using Reactjs and Redux and MUI react",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://secondproject-4d56f.web.app/",
 		},
 
 		{
 			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			description:"crud-app Project",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://crud-app-ee322.web.app/",
 		},
 	],
 };

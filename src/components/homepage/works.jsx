@@ -21,23 +21,12 @@ const Works = () => {
 							/>
 							<div className="work-title">Facebook</div>
 							<div className="work-subtitle">
-								Full Stack Web Developer
+								Front End Web Developer 
 							</div>
 							<div className="work-duration">2019 - Present</div>
 						</div>
 
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-							Full Stack Web Developer
-							</div>
-							<div className="work-duration">2012 - Present</div>
-						</div>
+					
 					</div>
 				}
 			/>

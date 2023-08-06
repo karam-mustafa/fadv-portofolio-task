@@ -3,11 +3,11 @@ import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import img from "../assets/rayan.jpg"
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
+	faFacebook,
+	faBehance,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -104,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={img}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -114,16 +114,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
+						
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -135,27 +126,27 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.facebook}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faFacebook}
 									className="homepage-social-icon"
 								/>
 							</a>
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.behance}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faInstagram}
+									icon={faBehance}
 									className="homepage-social-icon"
 								/>
 							</a>
 							<a
-								href={`mailto:${INFO.main.email}`}
+								href={`mailto:${INFO.socials.email}`}
 								target="_blank"
 								rel="noreferrer"
 							>
