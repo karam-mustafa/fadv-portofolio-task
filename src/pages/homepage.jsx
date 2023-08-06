@@ -25,8 +25,8 @@ import "./styles/homepage.css";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
-	const [logoSize, setLogoSize] = useState(80);
-	const [oldLogoSize, setOldLogoSize] = useState(80);
+	const [logoSize, setLogoSize] = useState(100);
+	const [oldLogoSize, setOldLogoSize] = useState(100);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -104,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="home.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
