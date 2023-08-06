@@ -1,9 +1,9 @@
 const INFO = {
 	main: {
-		title: "Nour Mando Portfolio",
-		name: "Nour Mando",
-		email: "nourmando9322@gmail.com",
-		logo: "./logo.png",
+		title: "Karam Mustafa",
+		name: "Tharindu N.",
+		email: "karam2mustafa@gmail.com",
+		logo: "../logo.png",
 	},
 
 	socials: {
