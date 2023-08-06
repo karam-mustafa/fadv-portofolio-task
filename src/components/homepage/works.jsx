@@ -3,8 +3,8 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 
 
-import faceBookPhoto from "./../../assets/img/facebook.png" 
-import twitterPhoto from "./../../assets/img/twitter.png" 
+import faceBookPhoto from "./../../img/facebook.png" 
+import twitterPhoto from "./../../img/twitter.png" 
 import Card from "../common/card";
 
 import "./styles/works.css";

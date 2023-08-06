@@ -20,7 +20,7 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
-import homepagePhoto from "./../assets/img/homepage.jpg"
+import homepagePhoto from "./../img/homepage.jpg"
 
 import "./styles/homepage.css";
 

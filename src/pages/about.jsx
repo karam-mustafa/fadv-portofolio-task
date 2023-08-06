@@ -8,7 +8,7 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import AboutPhoto from "./../assets/img/about.jpg"
+import AboutPhoto from "./../img/about.jpg"
 
 import "./styles/about.css";
 
