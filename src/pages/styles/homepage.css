@@ -49,6 +49,7 @@
 
 .homepage-image-wrapper img {
 	width: 100%;
+	filter: blur(4px);
 }
 
 .homepage-socials {
