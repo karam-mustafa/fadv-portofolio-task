@@ -71,7 +71,9 @@ function article_2() {
 		description:
 			"React is a very popular framework today, and rightfully so. Once you are comfortable with it, the experience of writing a web application becomes downright enjoyable. The community of React developers is vibrant. The pace of change in the framework is fast (maybe a little too fast at times) but well supported by Facebook and the open source community. Most importantly, it allows you to focus on simple pieces of functionality that can easily be composed and reused throughout your application. 👨‍💻",
 		style: ``,
+
 		keywords: ["Articles", "React js"],
+
 		body: (
 			<React.Fragment>
 				<p>
