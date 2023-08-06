@@ -9,6 +9,7 @@ import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
 import myArticles from "../data/articles";
+import backButton from '../assets/back-button.png';
 
 import "./styles/readArticle.css";
 
@@ -19,6 +20,8 @@ const ReadArticle = () => {
 	let { slug } = useParams();
 
 	const article = myArticles[slug - 1];
+
+	const back_button = backButton;
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -49,7 +52,7 @@ const ReadArticle = () => {
 					<div className="read-article-container">
 						<div className="read-article-back">
 							<img
-								src="../back-button.png"
+								src={back_button}
 								alt="back"
 								className="read-article-back-button"
 								onClick={() => navigate(-1)}

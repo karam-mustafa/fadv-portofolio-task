@@ -8,10 +8,12 @@ import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import aboutimg from '../assets/about.jpg';
 
 import "./styles/about.css";
 
 const About = () => {
+	const about_img = aboutimg;
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -54,7 +56,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src={about_img}
 											alt="about"
 											className="about-image"
 										/>
