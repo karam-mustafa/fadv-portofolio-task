@@ -1,14 +1,14 @@
 const INFO = {
 	main: {
-		title: "Karam Mustafa",
-		name: "Tharindu N.",
-		email: "karam2mustafa@gmail.com",
+		title: "Maha Rabah",
+		name: "Maha R.",
+		email: "maharabah13@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
+		twitter: "",
+		github: "https://github.com/Maha-Rabah",
 		linkedin: "https://linkedin.com/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
@@ -16,13 +16,13 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Front-End Developer.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Frontend developer with expertise in React.js. I have experience in building responsive websites that adapt to various screen sizes, ensuring an optimal user experience on both desktop and mobile platforms. I am proficient in using popular front-end frameworks such as Bootstrap and Foundation, which enable me to streamline the development process and create consistent designs.In addition to my technical skills, I also have a keen eye for design and aesthetics.",			
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "I’m Maha R. I live in Damascuse, where I design the future.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -59,25 +59,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		}
 	],
 };
 
