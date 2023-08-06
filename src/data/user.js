@@ -2,10 +2,10 @@
 
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
+		title: "Karam Mustafa",
 		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "https://unsplash.com/s/photos/formal-woman",
+    email: "karam2mustafa@gmail.com",
+		logo: "../logo.png",
 	},
 
 	socials: {
