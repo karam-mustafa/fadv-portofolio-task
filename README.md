@@ -1,5 +1,5 @@
 
-Live demo here: <a href="https://reactfolio.tharindu.dev/" target="_blank">reactfolio.tharindu.dev</a>
+Live demo here: https://omarrayes98.github.io/fadv-portofolio-task/
 
 ## 📚 Getting started
 

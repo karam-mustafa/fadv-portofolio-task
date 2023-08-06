@@ -104,8 +104,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
-											alt="about"
+											src="/fadv-portofolio-task/download.jpg"
+											alt="homepage"
 											className="homepage-image"
 										/>
 									</div>
