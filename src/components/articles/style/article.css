@@ -55,7 +55,7 @@
 	font-weight: 700;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1099px) {
 	.article-left-side {
 		min-width: 10%;
 		max-width: 10%;

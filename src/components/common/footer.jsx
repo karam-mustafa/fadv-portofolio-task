@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/footer.css";
-
+import INFO from "../../data/user"
 const Footer = () => {
 	return (
 		<React.Fragment>
@@ -29,7 +29,14 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Karam Mustafa All Rights Reserved.
+
+						© 2023&nbsp;{" "}
+							<a href={`mailto:${INFO.main.email}`}>
+								Arwa_Mlandi
+							</a>All Rights Reserved.
+
+				
+
 					</div>
 				</div>
 			</div>

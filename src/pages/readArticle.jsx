@@ -6,7 +6,7 @@ import styled from "styled-components";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-
+import back from "../images/back-button.png"
 import INFO from "../data/user";
 import myArticles from "../data/articles";
 
@@ -49,7 +49,7 @@ const ReadArticle = () => {
 					<div className="read-article-container">
 						<div className="read-article-back">
 							<img
-								src="../back-button.png"
+								src={back}
 								alt="back"
 								className="read-article-back-button"
 								onClick={() => navigate(-1)}

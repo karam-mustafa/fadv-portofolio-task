@@ -44,8 +44,11 @@
 	font-size: 14px;
 	text-align: right;
 }
-
-@media (max-width: 600px) {
+.nav-item  {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+@media (max-width: 1099px) {
 	.footer {
 		flex-direction: column;
 		height: 85px;

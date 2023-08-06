@@ -1,10 +1,12 @@
 @import "../../data/styles.css";
 
+
 .homepage-logo-container {
 	display: flex;
 	justify-content: left;
 	align-items: center;
 	padding-top: 130px;
+	
 }
 
 .homepage-container {
@@ -93,7 +95,10 @@
 	padding-top: 30px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1099px) {
+	.page-content{
+		width: 126%;
+	}
 	.homepage-first-area {
 		flex-direction: column;
 	}
@@ -145,6 +150,6 @@
 	.homepage-works {
 		flex-basis: auto;
 		margin-left: -25px;
-		margin-right: -25px;
+		margin-right: -13px;
 	}
 }
