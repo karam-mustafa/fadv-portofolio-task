@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import about from "../assets/about.jpg";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -16,7 +17,7 @@ const About = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "about");
+	const currentSEO = SEO.find(item => item.page === "about");
 
 	return (
 		<React.Fragment>
@@ -54,7 +55,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src={about}
 											alt="about"
 											className="about-image"
 										/>

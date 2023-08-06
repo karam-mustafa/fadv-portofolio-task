@@ -6,7 +6,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/article.css";
 
-const Article = (props) => {
+const Article = props => {
 	const { title, description, date, link } = props;
 
 	return (

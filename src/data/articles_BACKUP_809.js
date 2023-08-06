@@ -71,9 +71,16 @@ function article_2() {
 		description:
 			"React is a very popular framework today, and rightfully so. Once you are comfortable with it, the experience of writing a web application becomes downright enjoyable. The community of React developers is vibrant. The pace of change in the framework is fast (maybe a little too fast at times) but well supported by Facebook and the open source community. Most importantly, it allows you to focus on simple pieces of functionality that can easily be composed and reused throughout your application. 👨‍💻",
 		style: ``,
-
+<<<<<<< HEAD
 		keywords: ["Articles", "React js"],
-
+=======
+		keywords: [
+			"Artificial Intelligence in Healthcare",
+			"Tharindu ",
+			"Tharindu N ",
+			"Tharindu Nayanajith ",
+		],
+>>>>>>> aa5836fda926dd57586e0e14925c3a4d7521ad17
 		body: (
 			<React.Fragment>
 				<p>
