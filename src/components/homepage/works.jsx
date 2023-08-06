@@ -5,6 +5,9 @@ import Card from "../common/card";
 
 import "./styles/works.css";
 
+import facebookIcon from "./../../assets/facebook.png";
+import twitterIcon from "./../../assets/twitter.png";
+
 const Works = () => {
 	return (
 		<div className="works">
@@ -15,7 +18,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src={facebookIcon}
 								alt="facebook"
 								className="work-image"
 							/>
@@ -28,7 +31,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./twitter.png"
+								src={twitterIcon}
 								alt="twitter"
 								className="work-image"
 							/>

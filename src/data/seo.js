@@ -2,14 +2,14 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I'm a front-end developer from Syria. I have serious passion for UI effects and creating intuitive, dynamic user experiences. I design and code beautifull and simple things, and I love what I do.",
 		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am a front end developer with expertise in React js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
 		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
 	},
 

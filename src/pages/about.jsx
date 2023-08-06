@@ -11,6 +11,8 @@ import SEO from "../data/seo";
 
 import "./styles/about.css";
 
+import aboutImg from "./../assets/about.jpg";
+
 const About = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -54,7 +56,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src={aboutImg}
 											alt="about"
 											className="about-image"
 										/>
