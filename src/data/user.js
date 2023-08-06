@@ -26,7 +26,7 @@ const INFO = {
     homepage: {
         title: "Full-stack web developer.",
         description:
-            "I'm a fall stack developer with experience in Laravel & react. I have experience in scalable construction," +
+            "I'm a full stack developer with experience in Laravel & react. I have experience in scalable construction," +
             "Secure and reliable web applications using various frameworks and technologies." +
             "I enjoy solving complex problems and learning new skills. I am passionate about creativity" +
             "High quality code that follows industry best practices and standards." +
