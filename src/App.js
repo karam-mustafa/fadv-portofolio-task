@@ -22,6 +22,7 @@ function App() {
 
 	return (
 		<div className="App">
+
 			<Routes>
 				<Route index path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
