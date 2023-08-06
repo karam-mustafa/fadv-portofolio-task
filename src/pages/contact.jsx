@@ -40,36 +40,26 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							How to reach me?
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
+							First of all, thank you for your interest in communicating with me, as I am a very sociable person. Of course, you can add me to my accounts listed below, or communicate through either<br></br>
+							My phone numbers:<br></br>
+							<a href={`tel:${INFO.main.phone}`}>
+								{INFO.main.phone}
+							</a>	<br></br>
+							My Whats APP number:<br></br>
+							<a href={`tel:${INFO.main.WA}`}>
+								{INFO.main.WA}
+							</a>	<br></br>
+							E-mail: <br></br>
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
-							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
+							</a><br></br>
+							I am sure we will come up with genius ideas and great works
+							&nbsp;{" "}
+
 						</div>
 					</div>
 
