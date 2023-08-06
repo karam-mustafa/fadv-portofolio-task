@@ -114,10 +114,10 @@
 	}
 
 	.title {
-		width: 100%;
+		font-size: 30px;
 	}
 
 	.subtitle {
-		width: 100%;
+		font-size: 12px;
 	}
 }

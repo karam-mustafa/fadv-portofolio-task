@@ -10,9 +10,10 @@
 	border: 1px solid white;
 	border-radius: 50%;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 4vh;
+	top: 3vh;
 	z-index: 999;
 }
+
 
 .projects-container {
 	display: flex;
@@ -21,6 +22,7 @@
 	margin: 0;
 	padding-top: 120px;
 }
+
 
 @media (max-width: 600px) {
 	.projects-container {

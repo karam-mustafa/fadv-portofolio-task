@@ -9,8 +9,8 @@
 }
 
 .article-left-side {
-	min-width: 20%;
-	max-width: 20%;
+	/* min-width: 20%; */
+	/* max-width: 20%; */
 }
 
 .article-right-side {
@@ -22,11 +22,7 @@
 	padding: 30px;
 }
 
-.article-right-side:hover {
-	background: #fafafa;
-	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
-}
+
 
 .article-date {
 	padding-top: 30px;
@@ -65,5 +61,18 @@
 		flex-basis: 90%;
 		min-width: 85%;
 		max-width: 85%;
+	}
+}
+
+@media (max-width: 800px) {
+	.article-title {
+		font-size: 12px;
+	}
+	.article-description {
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.article-date {
+		font-size: 12px;
 	}
 }

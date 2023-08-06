@@ -20,6 +20,7 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
+import homepagePhoto from "./../img/homepage.jpg"
 
 import "./styles/homepage.css";
 
@@ -37,6 +38,7 @@ const Homepage = () => {
 			let scroll = Math.round(window.pageYOffset, 2);
 
 			let newLogoSize = 80 - (scroll * 4) / 10;
+			// let newLogoSize = 42.8;
 
 			if (newLogoSize < oldLogoSize) {
 				if (newLogoSize > 40) {
@@ -104,7 +106,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src= {homepagePhoto}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -171,7 +173,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
+							
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -186,7 +188,7 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
+
 
 							<div className="homepage-works">
 								<Works />
