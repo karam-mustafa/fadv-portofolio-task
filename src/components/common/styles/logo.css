@@ -4,3 +4,10 @@
 	margin: 0;
 	padding: 0;
 }
+@media (max-width: 600px) {
+	.logo-c{
+		max-width: 100%;
+		margin: auto !important;
+
+	}
+}
