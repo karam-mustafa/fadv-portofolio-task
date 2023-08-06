@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import ReactGA from "react-ga4";
 
 import Homepage from "./pages/homepage";
@@ -22,15 +22,26 @@ function App() {
 
 	return (
 		<div className="App">
-			<Routes>
-				<Route path="/" element={<Homepage />} />
+			<Routes basename={"/fadv-portofolio-task/"}>
+			<Route exact path="/" element={<Homepage />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
 				<Route path="/articles" element={<Articles />} />
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
-			</Routes>
+					</Routes>
+	 {/* <Router basename="/fadv-portofolio-task">
+      <Switch>
+        <Route exact path="/" component={Homepage} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route exact path="/articles" component={Articles} />
+        <Route path="/articles/:slug" component={ReadArticle} />
+        <Route path="/contact" component={Contact} />
+        <Route component={Notfound} />
+      </Switch>
+    </Router> */}
 		</div>
 	);
 }

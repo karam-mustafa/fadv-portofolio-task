@@ -1,8 +1,8 @@
 import React from "react";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-
+import twitter from './../../images/twitter.png';
+import facebook from './../../images/facebook.png';
 import Card from "../common/card";
-
 import "./styles/works.css";
 
 const Works = () => {
@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
+								src={facebook}
 								alt="facebook"
 								className="work-image"
 							/>
@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./twitter.png"
+								src={twitter}
 								alt="twitter"
 								className="work-image"
 							/>

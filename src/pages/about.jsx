@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import about from './../images/about.jpg'
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -54,7 +53,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src={about}
 											alt="about"
 											className="about-image"
 										/>
