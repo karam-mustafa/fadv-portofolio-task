@@ -1,10 +1,13 @@
 
 const INFO = {
 	main: {
+
 		title: "Reactfolio by arwa_mlandi",
 		name: "Arwa Mlandi.",
 		email: "arwaml528@gmail.com",
 		logo: "../images/logo.png"
+
+	
 	},
 
 	socials: {

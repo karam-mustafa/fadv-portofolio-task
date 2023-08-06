@@ -21,7 +21,11 @@ const Works = () => {
 							/>
 							<div className="work-title">Freelancer</div>
 							<div className="work-subtitle">
+
 								Front-End Developer
+
+					
+
 							</div>
 							<div className="work-duration">2022</div>
 						</div>
@@ -34,9 +38,14 @@ const Works = () => {
 							/>
 							<div className="work-title">Private Company</div>
 							<div className="work-subtitle">
+
 							Front-End Developer
 							</div>
 							<div className="work-duration">2023</div>
+
+							</div>
+							<div className="work-duration">2012 - Present</div>
+
 						</div>
 					</div>
 				}

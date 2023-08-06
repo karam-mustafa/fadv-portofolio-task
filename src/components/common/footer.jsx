@@ -29,10 +29,14 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
+
 						© 2023&nbsp;{" "}
 							<a href={`mailto:${INFO.main.email}`}>
 								Arwa_Mlandi
 							</a>All Rights Reserved.
+
+				
+
 					</div>
 				</div>
 			</div>
