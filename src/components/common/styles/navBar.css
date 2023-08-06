@@ -71,4 +71,11 @@
 	.nav-item {
 		font-weight: bold;
 	}
+
+	.nav-container {
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
