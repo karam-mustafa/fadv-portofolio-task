@@ -1,7 +1,7 @@
 const INFO = {
 	main: {
-		title: "Portfolio by BatoulHassan",
-		name: "Batoul Hassan",
+		title: "Karam Mustafa",
+		name: "Tharindu N.",
 		email: "karam2mustafa@gmail.com",
 		logo: "../logo.png",
 	},
