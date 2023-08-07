@@ -36,3 +36,8 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+.contact-subtitle a {
+	text-decoration: none;
+	color: var(--link-color);
+	font-weight: 600;
+}
