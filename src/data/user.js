@@ -22,7 +22,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Batoul Hassan. I live in Syria, where I design the future.",
+		title: "I’m Batoul Hassan I live in Syria, where I design the future.",
 		description:
 			"I've worked on a personal blogs on my journey of learning and I'm proud of the progress I've made. Want to find out more about my experience? Check out my projects."   
 	},
